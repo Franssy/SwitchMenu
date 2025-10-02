@@ -1,8 +1,8 @@
-import java.util.scanner;
+import java.util.Scanner;
 
 public class SwitchOperatedTestMenu {
 	public static void main(String[] args) {
-		scanner in = new scanner(system.in);
+		Scanner in = new Scanner(System.in);
 		// print menu
 		for (int i = 1; i <= 2; i++)
 			System.out.println(i + ". Menu item #" + i);
